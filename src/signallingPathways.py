@@ -7,7 +7,7 @@
 # ##################################################
 
 import numpy as np
-from dataObjects import DUMMY_DATA_1, DUMMY_DATA_2
+from data.dataObjects import DUMMY_DATA_1, DUMMY_DATA_2
 
 
 def calc_local_resp(global_resp):
