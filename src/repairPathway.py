@@ -8,8 +8,8 @@
 # ##################################################
 import numpy as np
 
-from dataObjects import XPC, TFIIH, XPG, XPA, XPF, RPA, PCNA
-from dataObjects import DAMAGED, PARTIALLY, FULLY, INCISED, RESYNTH, RECHROM
+from data.dataObjects import XPC, TFIIH, XPG, XPA, XPF, RPA, PCNA
+from data.dataObjects import DAMAGED, PARTIALLY, FULLY, INCISED, RESYNTH, RECHROM
 
 
 def binary_to_int(binary_str):
